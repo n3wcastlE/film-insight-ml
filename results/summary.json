@@ -1,0 +1,101 @@
+{
+  "reviews": 2000,
+  "ratings": 100836,
+  "users": 610,
+  "movies_catalog": 9742,
+  "movies_rated": 9724,
+  "rating_mean": 3.501556983616962,
+  "rating_median": 3.5,
+  "rating_std": 1.042529239060635,
+  "missing_ratings": {
+    "userId": 0,
+    "movieId": 0,
+    "rating": 0,
+    "timestamp": 0
+  },
+  "missing_movies": {
+    "movieId": 0,
+    "title": 0,
+    "genres": 0,
+    "year": 13
+  },
+  "missing_year": 13,
+  "duplicate_rating_rows": 0,
+  "duplicate_user_movie": 0,
+  "duplicate_texts": 0,
+  "empty_texts": 0,
+  "unknown_movie_ids": 0,
+  "text_by_label": {
+    "neg": {
+      "count": 1000,
+      "mean": 631.663,
+      "median": 595.5,
+      "std": 265.4467996311774,
+      "min": 17,
+      "max": 1888
+    },
+    "pos": {
+      "count": 1000,
+      "mean": 705.119,
+      "median": 659.0,
+      "std": 317.0743429828056,
+      "min": 120,
+      "max": 2462
+    }
+  },
+  "mann_whitney": {
+    "U": 565127.0,
+    "p": 4.572728451250405e-07,
+    "rank_biserial_pos_minus_neg": 0.1302540000000001
+  },
+  "popularity_rating_spearman": {
+    "rho": 0.03958153228619635,
+    "p": 9.454671263699276e-05
+  },
+  "ratings_per_movie_median": 3.0,
+  "rating_range": [
+    0.5,
+    5.0
+  ],
+  "rating_dates_utc": [
+    "1996-03-29 18:36:55+00:00",
+    "2018-09-24 14:27:30+00:00"
+  ],
+  "pilot": {
+    "train_n": 1600,
+    "test_n": 400,
+    "majority_baseline": 0.5,
+    "models": [
+      {
+        "model": "LogisticRegression",
+        "accuracy": 0.81,
+        "f1_macro": 0.8098288459613652
+      },
+      {
+        "model": "LinearSVC",
+        "accuracy": 0.8275,
+        "f1_macro": 0.8272570802691285
+      }
+    ],
+    "seed": 42,
+    "selection": "fixed settings; no tuning or model selection on test"
+  },
+  "provenance": {
+    "ml-latest-small.zip": {
+      "bytes": 978202,
+      "sha256": "696d65a3dfceac7c45750ad32df2c259311949efec81f0f144fdfb91ebc9e436"
+    },
+    "review_polarity.tar.gz": {
+      "bytes": 3127238,
+      "sha256": "fc0dccc2671af5db3c5d8f81f77a1ebfec953ecdd422334062df61ede36b2179"
+    }
+  },
+  "versions": {
+    "python": "3.12.14",
+    "pandas": "2.3.1",
+    "numpy": "2.3.2",
+    "scipy": "1.16.1",
+    "sklearn": "1.7.1",
+    "matplotlib": "3.10.8"
+  }
+}

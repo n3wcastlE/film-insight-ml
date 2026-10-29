@@ -1,0 +1,25 @@
+{
+  "team": [
+    {
+      "name": "Mykola Kostiuk",
+      "id": "72256",
+      "role": "Lider zespołu: koordynacja projektu i metodologia, integracja kodu i wyników, redakcja końcowa raportu oraz zarządzanie repozytorium GitHub."
+    },
+    {
+      "name": "Ivan Vlasenko",
+      "id": "71732",
+      "role": "Dane tekstowe Cornell: przygotowanie i kontrola jakości, analiza długości i słownictwa recenzji, wizualizacje oraz opis wyników analizy tekstowej."
+    },
+    {
+      "name": "Yehor Lysenko",
+      "id": "71886",
+      "role": "Dane liczbowe MovieLens: przygotowanie i kontrola jakości, analiza ocen, gatunków i popularności filmów, wizualizacje oraz opis wyników."
+    },
+    {
+      "name": "Ivan Saltykov",
+      "id": "71657",
+      "role": "Pilotaż modeli NLP: przygotowanie podziału trening-test, porównanie LR i SVM, metryki i analiza błędów, panel wyników oraz weryfikacja odtwarzalności."
+    }
+  ],
+  "github_url": "https://github.com/n3wcastlE/film-insight-ml"
+}
